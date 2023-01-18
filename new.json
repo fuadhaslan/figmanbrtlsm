@@ -1,5 +1,5 @@
 {
-  "nbrtlsm": {
+  "global": {
     "text-color": {
       "black": {
         "high": {
@@ -1645,7 +1645,7 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "nbrtlsm"
+      "global"
     ]
   }
 }
