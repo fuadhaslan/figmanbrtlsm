@@ -1598,7 +1598,7 @@
       }
     },
     "borderRadius": {
-      "false": {
+      "none": {
         "value": "0",
         "type": "borderRadius"
       },
