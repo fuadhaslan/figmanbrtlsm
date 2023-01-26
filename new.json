@@ -1,47 +1,28 @@
 {
   "global": {
-    "text-color": {
-      "black": {
-        "high": {
-          "value": "#000000de",
-          "type": "color"
-        },
-        "medium": {
-          "value": "#00000099",
-          "type": "color",
-          "description": "#000000"
-        },
-        "disabled": {
-          "value": "#00000061",
-          "type": "color",
-          "description": "#000000"
-        },
-        "low": {
-          "value": "#00000040",
-          "type": "color",
-          "description": "#000000"
-        },
-        "hard": {
-          "value": "#000000",
-          "type": "color"
-        }
+    "Black": {
+      "high": {
+        "value": "#000000de",
+        "type": "color"
       },
-      "white": {
-        "high": {
-          "value": "#ffffff",
-          "type": "color",
-          "description": "#FFFFFF"
-        },
-        "medium": {
-          "value": "#ffffff99",
-          "type": "color",
-          "description": "#FFFFFF"
-        },
-        "disabled": {
-          "value": "#ffffff61",
-          "type": "color",
-          "description": "#FFFFFF"
-        }
+      "medium": {
+        "value": "#00000099",
+        "type": "color",
+        "description": "#000000"
+      },
+      "disabled": {
+        "value": "#00000061",
+        "type": "color",
+        "description": "#000000"
+      },
+      "low": {
+        "value": "#00000040",
+        "type": "color",
+        "description": "#000000"
+      },
+      "hard": {
+        "value": "#000000",
+        "type": "color"
       }
     },
     "Green": {
@@ -1640,12 +1621,74 @@
         "value": "48",
         "type": "sizing"
       }
+    },
+    "White": {
+      "high": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "#FFFFFF"
+      },
+      "medium": {
+        "value": "#ffffff99",
+        "type": "color",
+        "description": "#FFFFFF"
+      },
+      "disabled": {
+        "value": "#ffffff61",
+        "type": "color",
+        "description": "#FFFFFF"
+      }
+    }
+  },
+  "semantic": {
+    "semantic": {
+      "text-color": {
+        "black": {
+          "high": {
+            "value": "{Black.high}",
+            "type": "color"
+          },
+          "medium": {
+            "value": "{Black.medium}",
+            "type": "color"
+          },
+          "low": {
+            "value": "{Black.low}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{Black.disabled}",
+            "type": "color"
+          }
+        },
+        "white": {
+          "high": {
+            "value": "{White.high}",
+            "type": "color"
+          },
+          "medium": {
+            "value": "{White.medium}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{White.disabled}",
+            "type": "color"
+          }
+        }
+      },
+      "border-color": {
+        "black": {
+          "value": "{Black.hard}",
+          "type": "color"
+        }
+      }
     }
   },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "global",
+      "semantic"
     ]
   }
 }
